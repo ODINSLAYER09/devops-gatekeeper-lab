@@ -1,4 +1,4 @@
-FROM node:python:3.6
+FROM python:3.6
 WORKDIR /app
 COPY package.json package-lock.json ./
 RUN npm install --omit=dev
